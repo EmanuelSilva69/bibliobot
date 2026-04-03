@@ -1,0 +1,72 @@
+[
+  {
+    "id": "LIV-001",
+    "titulo": "Fundamentos de Ciencia e Tecnologia da Informacao Universitaria",
+    "autor": "Marina Araujo Neves",
+    "data_aquisicao": "2026-01-12",
+    "assuntos": [
+      "ciencia da informacao",
+      "tecnologia da informacao",
+      "gestao do conhecimento",
+      "biblioteconomia digital"
+    ],
+    "resumo": "A obra apresenta os fundamentos da Ciencia da Informacao aplicados ao contexto universitario. Discute fluxos digitais, organizacao do conhecimento e criterios de qualidade para servicos informacionais em bibliotecas academicas. Tambem aborda desafios de mediacao em ambientes de alta complexidade.",
+    "localizacao": "Estante 4, Prateleira B"
+  },
+  {
+    "id": "LIV-002",
+    "titulo": "Redes de Computadores e Sistemas Distribuidos para Engenharia",
+    "autor": "Carlos Eduardo Matos Lima",
+    "data_aquisicao": "2025-11-04",
+    "assuntos": [
+      "engenharia de computacao",
+      "redes de computadores",
+      "sistemas distribuidos",
+      "arquitetura de sistemas"
+    ],
+    "resumo": "Este livro cobre modelos de comunicacao em rede, protocolos e escalabilidade de sistemas distribuidos. O texto enfatiza planejamento de infraestrutura e tolerancia a falhas para ambientes academicos e corporativos. Inclui estudos de caso com foco em desempenho e confiabilidade.",
+    "localizacao": "Estante 7, Prateleira A"
+  },
+  {
+    "id": "LIV-003",
+    "titulo": "Inteligencia Artificial e Machine Learning Aplicados a Servicos Informacionais",
+    "autor": "Renata Pires de Almeida",
+    "data_aquisicao": "2026-02-20",
+    "assuntos": [
+      "inteligencia artificial",
+      "machine learning",
+      "sistemas de recomendacao",
+      "analise de dados"
+    ],
+    "resumo": "A publicacao introduz tecnicas de IA e aprendizado de maquina para apoio a decisao em servicos de informacao. Explora recomendacao baseada em conteudo, avaliacao de desempenho e explicabilidade de modelos. O enfoque recai sobre uso responsavel em ambientes educacionais.",
+    "localizacao": "Estante 9, Prateleira C"
+  },
+  {
+    "id": "LIV-004",
+    "titulo": "Python e Estruturas de Dados para Solucoes Academicas",
+    "autor": "Thiago Mendes Rocha",
+    "data_aquisicao": "2025-09-18",
+    "assuntos": [
+      "programacao em python",
+      "estruturas de dados",
+      "algoritmos",
+      "desenvolvimento de software"
+    ],
+    "resumo": "O livro apresenta fundamentos de programacao em Python com foco em estruturas de dados e boas praticas de implementacao. Aborda listas, filas, arvores e tecnicas de organizacao para projetos reais. Inclui exemplos voltados ao desenvolvimento de prototipos em contexto universitario.",
+    "localizacao": "Estante 5, Prateleira D"
+  },
+  {
+    "id": "LIV-005",
+    "titulo": "Metodologia Cientifica para Pesquisa em Biblioteconomia e Computacao",
+    "autor": "Helena Duarte Soares",
+    "data_aquisicao": "2026-03-08",
+    "assuntos": [
+      "metodologia cientifica",
+      "pesquisa academica",
+      "metodos qualitativos",
+      "metodos quantitativos"
+    ],
+    "resumo": "Esta obra orienta o planejamento de projetos cientificos, definicao de problema, objetivos e procedimentos de analise. Integra perspectivas da Biblioteconomia e da Computacao para fortalecer rigor metodologico em pesquisas aplicadas. Traz exemplos de desenho experimental e validacao de resultados.",
+    "localizacao": "Estante 2, Prateleira F"
+  }
+]
