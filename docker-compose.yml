@@ -1,0 +1,49 @@
+# [Rastreabilidade: source 21, 58, 74]
+# Justificativa: Arquitetura local integra chatbot, busca e LLM para mediacao transparente.
+version: "3.9"
+
+services:
+  bibliobot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bibliobot-ufma
+    ports:
+      - "8000:8000"
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODEL: llama3.1:8b
+      SEARXNG_URL: http://searxng:8080
+      MAX_RECOMMENDATIONS: 5
+      HTTP_TIMEOUT: 20
+    depends_on:
+      - searxng
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama-local
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng-local
+    ports:
+      - "8080:8080"
+    environment:
+      BASE_URL: http://localhost:8080/
+      INSTANCE_NAME: bibliobot-searxng
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    container_name: searxng-redis
+
+volumes:
+  ollama_data:
