@@ -1,0 +1,11 @@
+.conda
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+logs/
+.git
+.gitignore
+.env
+.venv
+venv

@@ -1,0 +1,26 @@
+# [Rastreabilidade: source 21, 74]
+# Justificativa: Configuracao minima para busca academica integrada ao prototipo.
+use_default_settings: true
+
+general:
+  instance_name: bibliobot-searxng
+  debug: false
+
+search:
+  safe_search: 1
+  formats:
+    - html
+    - json
+
+server:
+  bind_address: 0.0.0.0
+  port: 8080
+  secret_key: "change-this-secret-key"
+
+engines:
+  - name: duckduckgo
+    engine: duckduckgo
+    disabled: false
+  - name: wikipedia
+    engine: wikipedia
+    disabled: false
